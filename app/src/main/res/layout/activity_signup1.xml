@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawable_gradient_animation_list"
+    tools:context=".signup1">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="300dp"
+        android:layout_height="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:background="#00FFFFFF"
+        android:max="3"
+        android:progress="1"
+        android:progressDrawable="@drawable/progress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="253dp"
+        android:layout_height="47dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="278dp"
+        android:ems="10"
+        android:hint="Last name"
+        android:inputType="textPersonName"
+        android:textColor="#FDFFFFFF"
+        android:textColorHint="#5EE2E2E2"
+        android:textSize="22sp"
+        app:backgroundTint="#AEFFFFFF" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="253dp"
+        android:layout_height="47dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="337dp"
+        android:ems="10"
+        android:hint="First name"
+        android:inputType="textPersonName"
+        android:textColor="#FDFFFFFF"
+        android:textColorHint="#5EE2E2E2"
+        android:textSize="22sp"
+        app:backgroundTint="#AEFFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="56dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginRight="297dp"
+        android:layout_marginBottom="560dp"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="28dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="285dp"
+        android:layout_marginRight="285dp"
+        android:layout_marginBottom="205dp"
+        app:srcCompat="@drawable/calendar" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="688dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text=" Already Registered? "
+        android:textColor="#A8FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="107dp"
+        android:layout_marginBottom="211dp"
+        android:hint="DOB (mm/dd/yy)"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#5EE2E2E2"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="114dp"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:layout_marginBottom="533dp"
+        android:alpha="0.8"
+        app:srcCompat="@drawable/signup" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="63dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="192dp"
+        android:layout_marginRight="221dp"
+        android:layout_marginBottom="502dp"
+        android:fontFamily="serif"
+        android:text="Step 1"
+        android:textColor="#A8FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="328dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="438dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="Sign up for new account"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#C4FFFFFF"
+        android:textSize="27sp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="81dp"
+        android:layout_height="77dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="164dp"
+        android:layout_marginLeft="164dp"
+        android:layout_marginBottom="94dp"
+        android:alpha="0.8"
+        app:srcCompat="@drawable/forward" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="106dp"
+        android:layout_height="47dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+
+
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="349dp"
+        android:backgroundTint="#BCFFFEFE" />
+
+
+</RelativeLayout>

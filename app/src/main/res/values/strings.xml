@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">D-Learn</string>
+
+    <string name="title_activity_splash_act">splash_act</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_user_course">user_course</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string-array name="mrms">
+        <item>Mr.</item>
+        <item>Ms.</item>
+    </string-array>
+    <string-array name="departments">
+        <item>Select Department</item>
+        <item>Computer Science and Engineering</item>
+        <item>Electronic Communications and Engineering </item>
+        <item>Mechanical Engineering</item>
+    </string-array>
+    <string-array name="passhints">
+        <item>Select a password reset question</item>
+        <item>Name of your first pet?</item>
+        <item>Registration number of your first vehicle?</item>
+        <item>Your Birth Place?</item>
+    </string-array>
+    <string-array name="CSE">
+        <item>Python</item>
+        <item>Java</item>
+        <item>Web Technologies</item>
+        <item>Algorithms</item>
+    </string-array>
+    <string-array name="ECE">
+        <item>Electromagnetic Theory</item>
+        <item>Control Systems</item>
+        <item>Analog and Digital Communication</item>
+        <item>Electronics Devices and Circuits</item>
+    </string-array>
+    <string-array name="ME">
+        <item>Thermodynamics</item>
+        <item>Design and Manufacturing</item>
+        <item>Strength of Materials</item>
+        <item>Fluid Mechanics</item>
+    </string-array>
+</resources>
