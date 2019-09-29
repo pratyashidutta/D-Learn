@@ -7,7 +7,7 @@ A simple distance learning android app
 
 # Made By:
 
-[Pratyashi Dutta](github.com/pratyashidutta)
+[Pratyashi Dutta](https://github.com/pratyashidutta)
 
 [Akhil Rana](https://github.com/akhil-rana)
 
