@@ -7,11 +7,11 @@ A simple distance learning android app
 
 # Made By:
 
-[Akhil Rana] (https://github.com/akhil-rana)
+[Pratyashi Dutta](github.com/pratyashidutta)
 
-Aryan Dev
+[Akhil Rana](https://github.com/akhil-rana)
 
-Pratyashi Dutta
+[Aryan Dev](https://github.com/aryandev1)
 
 Shreesh Narayan Singh
 
