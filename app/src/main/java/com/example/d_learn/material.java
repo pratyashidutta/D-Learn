@@ -34,7 +34,7 @@ public class material extends YouTubeBaseActivity {
     CardView c,vid,pdf;
     ImageView im17;
     private YouTubePlayer mPlayer;
-    private static final String API_KEY= "AIzaSyBNudDAzfzo7LEhITIvXyMy74C7j3SQ148";
+    private static final String API_KEY= "YOUR API KEY";
     YouTubePlayer.OnInitializedListener onInitializedListener;
     View back;
     ImageButton yt;
